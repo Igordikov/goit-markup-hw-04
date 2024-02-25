@@ -454,10 +454,14 @@ background: #fff;
 .footer-bg {
   background-color: #2e2f42;
   padding: 100px 0;
+  
+
 }
 
 .flex-footer-container {
   display: flex;
+  align-items: baseline;
+  
 }
 
 .logo-footer {
@@ -477,7 +481,7 @@ background: #fff;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
@@ -506,10 +510,22 @@ letter-spacing: 0.02em;
 color: #fff;
   }
 
+  
+
+  .icon-item-footer {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  #4d5ae5;
+    align-items: center;
+    justify-content: center;
+  }
+
   .icon-item-footer:hover,
   .icon-item-footer:focus
    {
-    background-color:  #31d0aa;;
+    background-color:  #31d0aa;
   }
 
   .footer-social-icons {

@@ -136,7 +136,7 @@ border-radius: 2px;
 .contact {
   line-height: 1.5;
   color: #434455;
-  transition: ;
+  transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .contact:hover {
   color: #404bbf;
@@ -155,7 +155,7 @@ border-radius: 2px;
   background-image: linear-gradient(
     rgba(46, 47, 66, 0.7), 
   rgba(46, 47, 66, 0.7)),  
-  url(../images/people-office\ 1.jpg);
+  url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -395,24 +395,23 @@ background: #fff;
   position: absolute;
   top: 0;
   left: 0;
-  width: 360px;
+
   height: 300px;
  
 background-color: #4d5ae5;
 transform: translateY(100%);
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .overlay-text {
   padding: 40px 32px;
- 
+ width: 100%;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
-
 }
 
 .img-our-portfolio:hover .overlay {

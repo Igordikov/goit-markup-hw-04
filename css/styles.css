@@ -464,6 +464,10 @@ background: #fff;
   
 }
 
+.logo-and-text {
+  margin-right: 120px;
+}
+
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -531,6 +535,10 @@ color: #fff;
   .footer-social-icons {
     display: flex;
     gap: 16px;
+  }
+
+  .footer-list-icon {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   
